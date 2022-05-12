@@ -7,9 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y vim less man wget tar git 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y clang
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libgl1-mesa-dev
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y ocl-icd-opencl-dev
-# RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libglu1-mesa-dev
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y xorg-dev
-
 
 ADD . /gst
 WORKDIR /gst/build
