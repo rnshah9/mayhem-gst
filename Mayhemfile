@@ -1,6 +1,5 @@
 project: rnshah9/mayhem-gst
 target: gentenc
-image: ghcr.io/rnshah9/playground:gst
 
 cmds:
   - cmd: /gst/build/codec/gentenc @@ out
